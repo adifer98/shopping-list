@@ -33,7 +33,7 @@ public class ShoppingItemsController : ControllerBase
 
         foreach (var item in items)
         {
-            if (string.IsNullOrWhiteSpace(item.Name) || string.IsNullOrWhiteSpace(item.CategoryId))
+            if (string.IsNullOrWhiteSpace(item.Name) || string.IsNullOrWhiteSpace(item.Category))
                 continue;
 
             await _itemRepo.AddOrUpdateItemAsync(item);

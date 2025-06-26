@@ -11,7 +11,7 @@ using ShoppingManagement.Infrastructure.Persistence;
 namespace ShoppingManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(ShoppingManagementDbContext))]
-    [Migration("20250626075140_InitialCreate")]
+    [Migration("20250626081505_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -73,7 +73,7 @@ namespace ShoppingManagement.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("CategoryId")
+                    b.Property<string>("Category")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

@@ -9,6 +9,7 @@ const initialState : StateType = {
     items: {},
     loading: true,
     totalItems: 0,
+    savedSuccessfully: null,
 }
 
 const storeSlice = createSlice({
@@ -25,6 +26,12 @@ const storeSlice = createSlice({
                 state.items[category][item] = 1;
             }
             state.totalItems++;
+        },
+        openAlert: (state, action: {payload: boolean}) => {
+            state.savedSuccessfully = action.payload;
+        },
+        closeAlert: (state) => {
+            state.savedSuccessfully = null;
         }
     },
     extraReducers: builder => {
@@ -32,20 +39,24 @@ const storeSlice = createSlice({
             state.loading = true;
         })
             .addCase(fetchItems.fulfilled, (state, action) => {
-                setTimeout(() => {
-                    for (const {category, quantity, name} of action.payload) {
-                        state.items[category][name] = quantity;
-                    }
-                    state.loading = false;
-                }, 1000)
+                let totalItems = 0;
+                for (const {category, quantity, name} of action.payload) {
+                    state.items[category][name] = quantity;
+                    totalItems += quantity;
+                }
+                state.totalItems = totalItems;
+                state.loading = false;
+            })
+            .addCase(fetchCategories.pending, (state) => {
+                state.loading = true;
             })
             .addCase(fetchCategories.fulfilled, (state, action) => {
+                state.categories = [...action.payload];
                 for (const category of action.payload) {
                     state.items[category] = {};
                 }
             })
     }
-        
     
 })
 
@@ -65,6 +76,10 @@ export const fetchCategories = createAsyncThunk(
     }
 )
 
-export const {addItem} = storeSlice.actions;
+export const {
+    addItem,
+    openAlert,
+    closeAlert
+} = storeSlice.actions;
 
 export default storeSlice.reducer;

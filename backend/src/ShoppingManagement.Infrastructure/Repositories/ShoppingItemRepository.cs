@@ -22,7 +22,7 @@ public class ShoppingItemRepository : IShoppingItemRepository
     public async Task AddOrUpdateItemAsync(ShoppingItem item)
     {
         var existing = await _context.ShoppingItems
-            .FirstOrDefaultAsync(x => x.Name == item.Name && x.CategoryId == item.CategoryId);
+            .FirstOrDefaultAsync(x => x.Name == item.Name && x.Category == item.Category);
 
         if (existing != null)
         {

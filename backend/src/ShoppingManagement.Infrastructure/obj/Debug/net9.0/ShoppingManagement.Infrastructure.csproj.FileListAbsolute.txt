@@ -36,3 +36,4 @@ C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManage
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Infrastructure\obj\Debug\net9.0\ShoppingManagement.Infrastructure.pdb
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Infrastructure\obj\Debug\net9.0\ShoppingManagement.Infrastructure.genruntimeconfig.cache
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Infrastructure\obj\Debug\net9.0\ref\ShoppingManagement.Infrastructure.dll
+C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Infrastructure\obj\Debug\net9.0\ShoppingManagement.Infrastructure.sourcelink.json

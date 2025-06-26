@@ -20,3 +20,4 @@ C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManage
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Domain\obj\Debug\net9.0\refint\ShoppingManagement.Domain.dll
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Domain\obj\Debug\net9.0\ShoppingManagement.Domain.pdb
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Domain\obj\Debug\net9.0\ref\ShoppingManagement.Domain.dll
+C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Domain\obj\Debug\net9.0\ShoppingManagement.Domain.sourcelink.json

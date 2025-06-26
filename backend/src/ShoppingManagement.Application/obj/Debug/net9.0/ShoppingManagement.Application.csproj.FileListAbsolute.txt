@@ -28,3 +28,4 @@ C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManage
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Application\obj\Debug\net9.0\refint\ShoppingManagement.Application.dll
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Application\obj\Debug\net9.0\ShoppingManagement.Application.pdb
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Application\obj\Debug\net9.0\ref\ShoppingManagement.Application.dll
+C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Application\obj\Debug\net9.0\ShoppingManagement.Application.sourcelink.json

@@ -5,4 +5,5 @@ export interface StateType {
     totalItems: number;
     categories: string[];
     items: Record<string, Record<string, number>>;
+    savedSuccessfully: boolean | null;
 }

@@ -346,3 +346,4 @@ C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManage
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Api\obj\Debug\net9.0\ShoppingManagement.Api.pdb
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Api\obj\Debug\net9.0\ShoppingManagement.Api.genruntimeconfig.cache
 C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Api\obj\Debug\net9.0\ref\ShoppingManagement.Api.dll
+C:\Users\User\Documents\my own projects\shopping-list\backend\src\ShoppingManagement.Api\obj\Debug\net9.0\ShoppingManagement.Api.sourcelink.json
